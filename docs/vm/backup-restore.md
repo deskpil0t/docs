@@ -26,7 +26,8 @@ A backup target is an endpoint used to access a backup store in Harvester. A bac
 | Parameter          | Type   | Description                                                                              |
 | :----------------- | :----- | :--------------------------------------------------------------------------------------- |
 | Type               | string | Choose S3 or NFS                                                                         |
-| Endpoint           | string | A hostname or an IP address. It can be left empty for AWS S3.                |
+| Endpoint           | string | A hostname or an IP address. It can be left empty for AWS S3.                            |
+|                    |        | *harvester 1.0.1 requires an endpoint for AWS:  <BucketRegion>.amazonaws.com
 | BucketName         | string | Name of the bucket                                                                       |
 | BucketRegion       | string | Region of the bucket                                                                     |
 | AccessKeyID        | string | A user-id that uniquely identifies your account                     |
